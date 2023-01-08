@@ -1,3 +1,5 @@
+// Wair BullSh*t Code
+
 import java.util.Scanner;
 
 public class Main {
@@ -10,12 +12,14 @@ public class Main {
             Thread.currentThread().interrupt();
         }
     }
+
     public static void main(String[] args) {
         System.out.println("Добро пожаловать в калькулятор подсчёта круток для гашни!\n" +
                 "Для более точного подсчёта ваших круток, ответьте на пару вопросов");
         wait(2000);
         start();
     }
+    
     private static void start() {
         Scanner scan = new Scanner(System.in);
 
@@ -58,6 +62,7 @@ public class Main {
         wait(1000);
         repeat();
     }
+
     private static void repeat() {
         Scanner test = new Scanner(System.in);
 
