@@ -15,7 +15,7 @@ public class Main {
     }
     public static void main(String[] args) {
 
-        JFrame window = new JFrame("Gacha Calculator 1.0");
+        JFrame window = new JFrame("Gacha Calculator 1.1");
         window.setBounds(5,5,560,480);
         window.setLayout(null);
 
