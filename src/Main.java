@@ -58,7 +58,7 @@ public class Main {
         ////////////////////////////////
 
         ////////////////////////////////
-        JLabel pulls = new JLabel("Сколько у вас УЖЕ есть гемов? (Число)");
+        JLabel pulls = new JLabel("Сколько у вас круток с собой? (Число)");
         pulls.setBounds(10,160,240,25);
         window.add(pulls);
 
